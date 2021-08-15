@@ -4,6 +4,7 @@ import './style/navbar.scss'
 import './style/main.scss'
 import { Hero } from './components/Hero';
 import { Topics } from './components/topics/Topics';
+import { Section3 } from './components/section3';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Hero />
       <Topics />
+      <Section3 />
     </div>
   );
 }
