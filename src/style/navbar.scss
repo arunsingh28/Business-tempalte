@@ -1,9 +1,21 @@
+:root {
+    --btn-border: #ced0da;
+    --menu-color: #7b889b;
+}
+
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 0px;
     .brand_name {
-        color: orange;
+        span {
+            font-size: 30px;
+            background: -webkit-repeating-linear-gradient(#fb99c2, #febe85);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: bolder;
+        }
     }
     .menu {
         ul {
@@ -11,8 +23,42 @@
             display: flex;
             li {
                 padding: 5px 10px;
-                background-color: #fafe3f;
+                color: var(--menu-color);
+                font-weight: bold;
+                transition: all .1s ease-in-out;
+                cursor: pointer;
+                &:hover {
+                    margin-top: 5px;
+                    border-bottom: 2px solid #fb99c2;
+                    // @include Keyframe()
+                }
             }
         }
     }
+    .lr {
+        button {
+            padding: 10px 40px;
+            border: none;
+            // color: var(--menu-color);
+            color: #787483;
+            font-weight: 600;
+            border: 2px solid var(--btn-border);
+            border-radius: 30px;
+        }
+    }
+}
+
+// animation
+@mixin Keyframe ($name: "default_anim", $duration:333ms, $count:infinit) {
+    @keyframes default_anim {
+        0% {
+            left: 0%;
+        }
+        100% {
+            left: 100%;
+        }
+    }
+    animation-name:$name;
+    animation-duration: $duration;
+    animation-iteration-count: $count;
 }

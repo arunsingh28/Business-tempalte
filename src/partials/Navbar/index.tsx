@@ -14,7 +14,7 @@ const Index = () => {
                 </ul>
             </div>
             <div className="lr">
-                <button>Login</button>
+                <button>Login 👉</button>
             </div>
         </nav>
     )
