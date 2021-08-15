@@ -12,7 +12,7 @@ export const Topics = () => {
             </p>
             <div className="wrapper">
                 <Card title="Business process" src={process} desc="Doubling my 9-5 salary serval times in my career is something i never thought would happen." />
-                <Card title="Digital strategy" src={user} desc="Doubling my 9-5 salary serval times in my career is something i never thought would happen." argb={true} />
+                <Card title="Digital strategy" src={user} desc="Doubling my 9-5 salary serval times in my career is something i never thought would happen." argb={true} color={true} />
                 <Card title="Media marketing" src={graphs} desc="Doubling my 9-5 salary serval times in my career is something i never thought would happen." />
             </div>
         </div>
