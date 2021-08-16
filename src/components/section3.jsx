@@ -5,6 +5,7 @@ export const Section3 = () => {
     return (
         <div className="_section3">
             <div className="imgSide">
+                <div className="_bg_layer"></div>
                 <img src="https://ouch-cdn2.icons8.com/0TJ-KgEwhBxNpfx0edCWx2QoXzeb00oCw2yRb1wENIg/rs:fit:822:912/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9zdmcvNDM0/LzBkNTRiZGM4LWZi/MTktNDVkYy1hNTRj/LTNiMzMxMmRmNzM1/NC5zdmc.png" />
             </div>
             <div className="contentSide">

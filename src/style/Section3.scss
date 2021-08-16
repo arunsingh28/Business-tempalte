@@ -5,6 +5,19 @@
     align-items: center;
     gap: 50px;
     .imgSide {
+        position: relative;
+        ._bg_layer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 580px;
+            width: 97%;
+            background: linear-gradient(50deg, pink, indigo);
+            z-index: -1;
+            margin-left: -10px;
+            border-top-right-radius: 300px;
+            box-shadow: 1px -2px 50px 8px rgba(185, 115, 250, 0.25), 1px -2px 50px 10px rgba(227, 119, 236, 0.25);
+        }
         img {
             height: 600px;
         }
