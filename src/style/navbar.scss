@@ -1,8 +1,5 @@
-:root {
-    --btn-border: #ced0da;
-    --menu-color: #7b889b;
-}
-
+$btn-border: #ced0da;
+$menu-color: #7b889b;
 .nav {
     display: flex;
     justify-content: space-between;
@@ -23,7 +20,7 @@
             display: flex;
             li {
                 padding: 5px 10px;
-                color: var(--menu-color);
+                color: $menu-color;
                 font-weight: bold;
                 transition: all .1s ease-in-out;
                 cursor: pointer;
@@ -42,8 +39,16 @@
             // color: var(--menu-color);
             color: #787483;
             font-weight: 600;
-            border: 2px solid var(--btn-border);
+            border: 2px solid $btn-border;
             border-radius: 30px;
+        }
+        .menu_btn {
+            padding: 10px;
+            border-radius: 7px;
+            img {
+                height: 20px;
+                width: 20px;
+            }
         }
     }
 }
@@ -62,3 +67,5 @@
     animation-duration: $duration;
     animation-iteration-count: $count;
 }
+
+// for mobile

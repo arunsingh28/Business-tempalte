@@ -1,10 +1,15 @@
-import React from 'react'
+
+import React, { useState } from 'react'
 import '../../style/navbar.scss'
+import menu from '../../icons/menu.svg'
+import close from '../../icons/close.svg'
 const Index = () => {
+    let [open, setOpen] = useState(false)
+
     return (
         <nav className="nav">
             <div className="brand_name"><span>Elliott</span></div>
-            <div className="menu">
+            <div className="menu" style={{ display: open ? 'block' : 'none' }}>
                 <ul>
                     <li>Home</li>
                     <li>Services</li>
@@ -14,7 +19,12 @@ const Index = () => {
                 </ul>
             </div>
             <div className="lr">
-                <button>Login 👉</button>
+                <button className="login_btn">Login 👉</button>
+                <button className="menu_btn" onClick={() => {
+                    setOpen(!open)
+                }}>
+                    <img src={open ? close : menu} alt="menu" />
+                </button>
             </div>
         </nav>
     )

@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './partials/Navbar';
 import './style/main.scss'
+import './style/brekpoint.scss'
 import { Hero } from './components/Hero';
 import { Topics } from './components/Topics';
 import { Section3 } from './components/Section3';
@@ -13,13 +14,13 @@ function App() {
     <>
       <div className="App">
         <Navbar />
-        <Hero />
+        {/* <Hero />
         <Topics />
         <Section3 />
         <Quality />
-        <Testimonial />
+        <Testimonial /> */}
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
