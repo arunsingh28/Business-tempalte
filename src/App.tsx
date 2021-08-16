@@ -1,10 +1,10 @@
 import React from 'react';
 import Navbar from './partials/Navbar';
-import './style/navbar.scss'
 import './style/main.scss'
 import { Hero } from './components/Hero';
-import { Topics } from './components/topics/Topics';
-import { Section3 } from './components/section3';
+import { Topics } from './components/Topics';
+import { Section3 } from './components/Section3';
+import { Quality } from './components/Quality';
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
       <Hero />
       <Topics />
       <Section3 />
+      {/* <Quality /> */}
     </div>
   );
 }

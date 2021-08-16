@@ -6,7 +6,7 @@ export const Hero = () => {
         <section className="section_1">
             <div className="hemi__"></div>
             <div className="_title">
-                <h1>Your marketing <br />consultant.</h1>
+                <h1>Your marketing<br />consultant.</h1>
             </div>
             <div className="_desc">
                 <p>We meet different humanoid <br />

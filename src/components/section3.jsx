@@ -1,5 +1,6 @@
 import React from 'react'
 import '../style/Section3.scss'
+
 export const Section3 = () => {
     return (
         <div className="_section3">
