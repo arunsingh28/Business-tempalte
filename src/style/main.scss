@@ -27,3 +27,11 @@ body {
         margin: 0px 300px;
     }
 }
+
+footer {
+    .gridlayout {
+        @media screen and (min-width: 1590px) {
+            margin: 0px 300px;
+        }
+    }
+}

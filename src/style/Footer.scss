@@ -1,0 +1,78 @@
+footer {
+    background: #15193a;
+    height: auto;
+    color: rgb(240, 240, 240);
+    padding: 20px 50px;
+    .t {
+        text-align: center;
+        padding: 20px 0;
+        font-family: 'Poppins', sans-serif;
+        font-size: 60px;
+        line-height: 70px;
+    }
+    p {
+        text-align: center;
+        color: rgb(175, 175, 175);
+    }
+    .subscribe {
+        text-align: center;
+        padding: 40px 0;
+        input {
+            height: 50px;
+            width: 400px;
+            background: #2c315f;
+            border: none;
+            padding: 0 7px;
+            color: #fff;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+        button {
+            cursor: pointer;
+            margin-left: -97px;
+            padding: 12px 30px;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            background: linear-gradient(50deg, pink, indigo);
+        }
+    }
+    .gridlayout {
+        margin-top: 50px;
+        display: grid;
+        column-gap: 10px;
+        grid-template-columns: 40% 20% 20% 20%;
+        .company {
+            .name {
+                font-family: 'Poppins', sans-serif;
+                font-size: 40px;
+                background: -webkit-repeating-linear-gradient(#fb99c2, #febe85);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            .slog {
+                letter-spacing: 1px;
+                font-size: 13px;
+                padding: 10px 0;
+                text-align: start;
+                width: 70%;
+                line-height: 25px;
+            }
+        }
+        div {
+            h4 {
+                color: rgb(209, 215, 221);
+            }
+            ul {
+                list-style: none;
+                padding: 25px 0;
+                li {
+                    letter-spacing: 1px;
+                    font-size: 13px;
+                    padding: 16px 0;
+                    color: rgb(189, 209, 209);
+                }
+            }
+        }
+    }
+}
