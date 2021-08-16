@@ -22,12 +22,20 @@ $LGdesktop: 1920px;
         left: 0;
     }
     .hemi__ {
-        height: 31em !important;
-        width: 25em !important;
+        height: 100% !important;
+        width: 100% !important;
     }
     .sm__ {
         margin-left: -18px !important;
         font-size: 8px !important;
+    }
+    ._navigate {
+        button {
+            font-size: 15px;
+        }
+    }
+    .wrapper {
+        flex-direction: column;
     }
 }
 
