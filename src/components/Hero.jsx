@@ -15,7 +15,7 @@ export const Hero = () => {
             </div>
             <div className="_navigate">
                 <button className="cyl">Free consultation</button>
-                <button className="circle">▷</button> <span>See video</span>
+                <button className="circle">▷</button> <span className="sm__">See video</span>
             </div>
             <div className="Limg">
                 {/* <img src="https://ouch-cdn2.icons8.com/EBIlTGzhd982P8wVdUxu6UCb7N9FrkOzZPVKkwAvn5Y/rs:fit:646:912/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9zdmcvODE3/L2Q3MGVhZTA4LTIy/Y2YtNGQxZi04ZWVj/LTEzYzY4YzBmZWE2/MS5zdmc.png"/> */}

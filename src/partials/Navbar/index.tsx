@@ -9,8 +9,8 @@ const Index = () => {
     return (
         <nav className="nav">
             <div className="brand_name"><span>Elliott</span></div>
-            <div className="menu" style={{ display: open ? 'block' : 'none' }}>
-                <ul>
+            <div className={open ? 'smMenu' : 'menu'}>
+                <ul className={open ? 'smLi' : ''}>
                     <li>Home</li>
                     <li>Services</li>
                     <li>Prices</li>
