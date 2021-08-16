@@ -13,7 +13,7 @@ function App() {
       <Hero />
       <Topics />
       <Section3 />
-      {/* <Quality /> */}
+      <Quality />
     </div>
   );
 }
