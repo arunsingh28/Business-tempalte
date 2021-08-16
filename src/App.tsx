@@ -16,8 +16,8 @@ function App() {
         <Navbar />
         <Hero />
         <Topics />
-        {/*<Section3 />
-        <Quality />
+        <Section3 />
+        {/*<Quality />
         <Testimonial /> */}
       </div>
       {/* <Footer /> */}

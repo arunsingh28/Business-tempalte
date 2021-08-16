@@ -34,7 +34,7 @@
     .contentSide {
         h1 {
             font-family: 'Poppins', sans-serif;
-            font-size: 60px;
+            font-size: calc(50px + 1vw);
             line-height: 70px;
         }
         .para {
