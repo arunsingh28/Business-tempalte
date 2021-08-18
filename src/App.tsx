@@ -4,7 +4,7 @@ import './style/main.scss'
 import './style/brekpoint.scss'
 import { Hero } from './components/Hero';
 import { Topics } from './components/Topics';
-import { Section3 } from './components/Section3';
+import { Section } from './components/Section';
 import { Quality } from './components/Quality';
 import { Testimonial } from './components/Testimonial';
 import { Footer } from './components/Footer';
@@ -17,7 +17,7 @@ function App() {
           <Navbar />
           <Hero />
           <Topics />
-          <Section3 />
+          <Section />
           <Quality />
           <Testimonial />
         </div>

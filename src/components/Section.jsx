@@ -1,7 +1,7 @@
 import React from 'react'
 import '../style/Section3.scss'
 
-export const Section3 = () => {
+export const Section = () => {
     return (
         <div className="_section3">
             <div className="imgSide">
@@ -9,7 +9,7 @@ export const Section3 = () => {
                     {/* <img src="https://ouch-cdn2.icons8.com/YxCLR2NXFAkrkB7oaFPkusc_HnR0M8_rRa0BrbR7ugY/rs:fit:951:912/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9zdmcvMjM2/LzQxNDc0ZWZkLTdl/M2MtNGJlOS05NDJh/LTkxOWQ2MTliZTg0/OS5zdmc.png" /> */}
                     <img src="https://ouch-cdn2.icons8.com/APKQEFHAL8JHUqfpQVBemrL2gHA7zYz-S8wp5wQ-ok8/rs:fit:1373:912/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNTQv/OGU3NjZjYWUtOGY4/Ni00YzYwLTkwZDgt/OTE0YTVkZmYxYTM0/LnBuZw.png" alt="img" />
                 </div>
-                <img src="https://ouch-cdn2.icons8.com/0TJ-KgEwhBxNpfx0edCWx2QoXzeb00oCw2yRb1wENIg/rs:fit:822:912/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9zdmcvNDM0/LzBkNTRiZGM4LWZi/MTktNDVkYy1hNTRj/LTNiMzMxMmRmNzM1/NC5zdmc.png" alt="image"/>
+                <img src="https://ouch-cdn2.icons8.com/0TJ-KgEwhBxNpfx0edCWx2QoXzeb00oCw2yRb1wENIg/rs:fit:822:912/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9zdmcvNDM0/LzBkNTRiZGM4LWZi/MTktNDVkYy1hNTRj/LTNiMzMxMmRmNzM1/NC5zdmc.png" alt="image" />
             </div>
             <div className="contentSide">
                 <h1>We build business with right way</h1>
